@@ -1,20 +1,25 @@
 # Evergreen Skills for Software Developers
-
-[🇨🇳](/README_cn.md "简体中文")
-
 [![Codeship Status for romenrg/evergreen-skills-developers](https://app.codeship.com/projects/57d86950-fee3-0136-cc17-56b6e41314e7/status?branch=master)](https://app.codeship.com/projects/322711)
 
 This repository includes a list of "evergreen skills" that should serve as a fair assessment of skilled software engineers / developers.
 
 The purpose of this work is to serve as an alternative resource for conducting technical interviews of software developers / engineers, when hiring. This document focuses on software development best practices, cross-framework principles and other portable skills; as opposed to the detrimental fixation on language trends and framework-specific knowledge that we often see in the industry.
 
-Programming languages evolve constantly, companies change their tech stacks, frameworks quickly become outdated, and syntax-related questions can easily be looked up by skilled engineers in search engines in minutes, whenever they need it. So, does it make sense to focus on those aspects when interviewing candidates?
+> 这份工作的是为了在招聘软件开发者/工程师时，提供一个替代的技术面试的方案。本档关注的是软开发者最佳实践、跨框架原则和通用的技能；而不是我们在行业中经常看到的语言层面，或者特定技术框架的内容。
+
+ Programming languages evolve constantly, companies change their tech stacks, frameworks quickly become outdated, and syntax-related questions can easily be looked up by skilled engineers in search engines in minutes, whenever they need it. So, does it make sense to focus on those aspects when interviewing candidates?
+
+> 编程语言不断进化，公司也不断改变他们的技术栈，框架很快就会过时，有经验的工程师使用搜索引擎能在几分钟就能解决语法相关的问题。因此，在面试候选人时关注这些方面是否有意义呢？
 
 On the other hand, there are software development best practices, cross-framework technical principles and critical non-technical skills that cannot be easily googled, take time to learn, are "evergreen" and have a huge impact on engineer's performance. These are significantly better at reflecting the real value a software developer / engineer brings to an organization or team.
+
+> 另一方面，技术框架以外的原理和非技术的技能是在谷歌上查不到的，这些技能是“常青”的，并且对工程师的表现有巨大的影响。这些更能反映出软件开发者/工程师为组织或团队带来的真正价值。
 
 This repository is a derivative work of the following article: "[What Makes a Great Software Engineer](https://www.romenrg.com/blog/2018/12/29/what-makes-a-great-software-engineer)".
 
 _This is a work in progress. Important knowledge might be missing, existing bullets can probably be improved and better grouping strategies could be found. For those reasons, any contributions (i.e. PRs or issues) are welcome._ Please feel free to propose changes following [the contributing guideline](CONTRIBUTING.md).
+
+
 
 ## Table of contents
 
@@ -49,50 +54,145 @@ _This is a work in progress. Important knowledge might be missing, existing bull
 
 The following non-technical skills are probably the most critical for an engineer to have. Being successful as a software engineer in a company becomes very hard without good communication, teamwork attitude, development-process knowledge, problem-solving skills and a learning mindset; despite the technical skills one may have.
 
-### Core Skills (aka "soft" skills)
+> 以下非技术能力可能是开发者最重要的能力。尽管一个人可能具备很强的技术能力，但在公司中没有良好的沟通、团队合作态度、开发流程、解决问题的能力和学习的心态的话，一切会变得非常糟糕。
+
+### Core Skills (aka "soft" skills) 
+
+核心技能（又称“软技能”）
 
 #### Communication
 
 * Follow e-mail best practices (e.g. [some e-mail etiquette rules](https://www.grammarly.com/blog/email-etiquette-rules-to-know/))
+
+  遵循邮件使用的最佳策略(例： [some e-mail etiquette rules](https://www.grammarly.com/blog/email-etiquette-rules-to-know/))
+
 * Follow chat best practices (e.g. [use threads to organize discussions](https://slack.com/intl/en-es/help/articles/115000769927-Use-threads-to-organize-discussions-) and [other best-practices from Slack](https://blog.rescuetime.com/slack-focus-guide/))
+
+  遵循沟通的最佳策略
+
+  两份链接指向的 slack 的一则使用文档和一份 slack 使用技巧文档
+
 * [Minimize interruptions](https://jaxenter.com/aaaand-gone-true-cost-interruptions-128741.html)
+
+  最小化干扰
+
+  链接指向的文章是一篇关于程序员在工作中，因被其他事项而中断程序开发的影响，一般人，在工作过程中断打扰后大约需要23分钟才能恢复到之前的状态，而程序员需要更久，文中强调了工作中断对程序员工作效率和心情的影响，并讨论了有计划和非计划性中断的不同影响。
+
 * Be polite
+
+  保持礼貌
 
 #### Teamwork
 
 * [Practice empathy](https://simpleprogrammer.com/empathy-software-developers)
+
+  练习同理心
+
 * Keep low egos
+
+  保持谦逊和低调
+
 * Be an active listener
+
+  做一个积极倾听的人
+
 * Be a good mentor
+
+  做一个好的导师
+
 * Share knowledge
+
+  知识分享
+
 * Be constructive
 
+  得有见地
+
 ### Innovation & (self-)management skills
+
+创新和自我管理技能
 
 #### Development process
 
 * Know about [Agile Software Development principles](https://agilemanifesto.org/principles.html)
+
+  懂[《敏捷开发原则》](https://agilemanifesto.org/principles.html)
+
 * Be comfortable with iterative and incremental development
+
+  适应迭代和增量开发
+
 * Have self-organizing capabilities
+
+  自组织的能力
+
+  指的是个体或系统能够自发地、无需外部强制指挥，根据内部规则和相互作用来组织自身结构和行为的能力。这种能力在多个层面都有体现，包括个人自我管理、团队协作以及更广泛的社会和生态系统
+
 * Avoid creating false expectations (e.g. with [time estimates](https://www.romenrg.com/blog/2015/09/28/why-asking-developers-for-time-estimates-in-software-projects-is-a-terrible-idea-and-how-to-bypass-it-with-scrum/))
+
+  避免产生错误的预估（比如：工时预估）
+
 * Focus on priorities and business value
+
+  关注优先级和业务价值
 
 #### Problem solving skills
 
 * Applying the [Scientific Method](https://en.wikipedia.org/wiki/Scientific_method)
+
+  使用科学方法
+
+  > 科学方法是一种有系统地寻求知识的程序，涉及了以下三个步骤：问题的认知与表述、实验数据的收集、假说的构成与测试。
+
 * Researching skills
+
+  检索能力
+
 * [Lateral Thinking](https://www.edwddebono.com/lateral-thinking)
+
+  横向思维
+
+  > 横向思维，指使用间接的、具有创造力的、不是一望而知的推理方式来解决问题
+
 * Abstraction
+
+  抽象化能力
+
 * Creativity
+
+  创造力
+
 * [5 Whys](http://en.wikipedia.org/wiki/5_Whys)
+
+  五问法
+
+  > 五问法关键所在就是，鼓励解决问题的人要努力避开主观或自负的假设和逻辑陷阱，从结果着手，沿着因果关系链条，顺藤摸瓜，穿越不同的抽象层面，直至找出原有问题的根本原因。简而言之，就是鼓励解决问题的人要有“打破砂锅问到底”的精神。
+
 * Risk management
+
+  风险管理
 
 #### Mindset
 
+心态
+
 * Don't fear change
+
+  不要害怕变化
+
 * Dare to fail
+
+  敢于失败
+
 * Be a life-long learner
+
+  终生学习
+
 * [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking) (be rational, question decisions, "let the facts do the talking")
+
+  批判性思维（保持理性，质疑决定，“让事实说话”）
+
+  
 
 ## Technical skills
 
@@ -100,35 +200,133 @@ The following non-technical skills are probably the most critical for an enginee
 
 There is evergreen technical knowledge that is relevant for any software engineer, despite the specific area in which they are going to be working on. To get a good understanding of their seniority and learn how solid their engineering practices are, you can keep a conversation with them on programming principles, data structures, clean code, source code management, technical collaboration and/or DevOps practices. If these foundations are solid, they will probably be able to learn the specifics needed for your particular case without problems. 
 
+> 有一些技术知识是永恒的，对任何软件工程师都有关，尽管他们将要从事的具体领域各不相同。为了深入了解他们的资历并了解他们的工程实践有多扎实，你可以和他们就编程原理、数据结构、清晰的代码、源代码管理、技术协作或者DevOps实践等主题进行交谈。如果这些基础扎实，他们可能能够毫无问题地学习你们特定领域的东西。
+
 #### Programming principles
 
+编程准则
+
  * Basic [control structures](https://en.wikipedia.org/wiki/Control_flow) and [boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+   基本流程结构和逻辑代数
+
  * OOP (Object Oriented Programming)
+
+   面向对象编程
+
  * [SOLID](https://en.wikipedia.org/wiki/SOLID), [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+
+   面向对象设计
+
+   > **SOLID**（单一功能、开闭原则、里氏替换、接口隔离以及依赖反转）
+   >
+   > |  S   | [单一功能原则](https://zh.wikipedia.org/wiki/单一功能原则) | 认为“[对象](https://zh.wikipedia.org/wiki/对象_(计算机科学))应该仅具有一种单一功能”的概念。 |
+   > | :--: | ---------------------------------------------------------- | ------------------------------------------------------------ |
+   > |  O   | [开闭原则](https://zh.wikipedia.org/wiki/开闭原则)         | 认为“软件应该是对于扩展开放的，但是对于修改封闭的”的概念。   |
+   > |  L   | [里氏替换原则](https://zh.wikipedia.org/wiki/里氏替换原则) | 认为“程序中的对象应该是可以在不改变程序正确性的前提下被它的子类所替换的”的概念。参考[契约式设计](https://zh.wikipedia.org/wiki/契约式设计)。 |
+   > |  I   | [接口隔离原则](https://zh.wikipedia.org/wiki/接口隔离原则) | 认为“多个特定客户端接口要好于一个宽泛用途的接口”[[5\]](https://zh.wikipedia.org/wiki/SOLID_(面向对象设计)#cite_note-martin-design-principles-5) 的概念。 |
+   > |  D   | [依赖反转原则](https://zh.wikipedia.org/wiki/依赖反转原则) | 认为一个方法应该遵从“依赖于抽象而不是一个实例”[[5\]](https://zh.wikipedia.org/wiki/SOLID_(面向对象设计)#cite_note-martin-design-principles-5) 的概念。 [依赖注入](https://zh.wikipedia.org/wiki/依赖注入)是该原则的一种实现方式。 |
+   >
+   > **GRASP**中提到的模式和原则包括有控制器（controller）、创建者（creator）、中介（indirection）、信息专家（information expert）、低耦合性（low coupling）、高内聚性（high cohesion）、多态（polymorphism）、保护变化（protected variations）和纯虚构（pure Fabrication）[2]
+
+   
+
  * Functional programming (pure functions, immutability, recursion,...)
+
+   函数式编程（纯函数、不变性、递归……）
+
  * [Declarative vs Imperative programming](http://amzotti.github.io/programming%20paradigms/2015/02/13/what-is-the-difference-between-procedural-function-imperative-and-declarative-programming-paradigms/)
+
+   声明式与命令式编程
+
+   链接指向的文章讨论了声明式编程与命令式编程的区别。
+
+   > 声明式和命令式编程范例只不过是描述在不同抽象层次上编码的流行词。声明式编程关注的是“做什么，而不是如何做”，而命令式编程则关注的是“如何做，而不是做什么”。声明式编程是在比命令式编程更高的抽象层次上进行编程。两者都有其适用的地方，例如在网页开发中使用框架时需要声明式编程，而在设计算法和其他底层需求时则需要命令式编程。
 
 #### Data structures
 
+数据结构
+
  * Basic structures (basic types, array, matrix, object...)
+
+   级别数据结构（基本类型、数组、矩阵、对象...）
+
  * Caching / memoization
+
+   缓存和memoization
+
+   memoization 没有一个很好的词能翻译，大概意思就是通过存储函数调用的结果，并在再次使用相同输入调用函数时直接返回已存储的结果，从而加速计算逻辑。斐波那契数列就是一个使用 memoization 的例子
+
  * Hash codes, tokens, encodings (e.g. Base64)
+
+   Hash codes、 tokens、编码（比如 Base64）
+
  * [Stack vs heap](https://stackoverflow.com/a/80113/1213497) memory
+
+   栈与堆内存
+
+   链接指向一则在 stackoverflow 提出：堆栈相关的诸多疑问，最高数回答解释了堆栈两种内存分配方式的基本概念、操作方式和性能差异，其中栈内存分配方式由于其后进先出的特性和近距离的存取模式，使得其在内存分配和回收上更加高效；而堆内存分配方式由于其动态和灵活的特性，对内存的管理相对复杂，但能够满足更多的内存需求
 
 #### Clean code
 
+代码整洁
+
  * Acknowledge that naming is key to code readability (files, classes, variables / attributes, functions / methods...)
+
+     懂得命名对代码的可读性的重要性
+
  * Avoid long functions and classes, making sure to split responsibilities properly into methods/functions and/or classes/files
+
+     避免过长的方法和类，确保职责被划分到各个方法或者类中
+
  * Follow conventions to organize project structure
+
+     遵循约定来管理项目结构
+
  * Extract complex boolean conditions into well-named functions
+
+     将复杂的布尔条件提取到命名良好的函数中
+
  * Try to write code that is as self-explanatory as possible (i.e. "what" the code does is easy to understand by reading it)
+
+     尽量编写尽可能自解释的代码（即通过阅读代码就能容易理解代码的功能）
+
  * Favor good naming and lightweight documentation over inline comments
-     * [Code comments often lie](https://www.codeproject.com/Articles/872073/Code-Comments-are-Lies) and are usually shortcuts written to explain what a messy code block does, instead of investing the time in refactoring it to improve its readability
+     
+     良好的命名和轻量的文档而不是行内注释
+     
+     [Code comments often lie](https://www.codeproject.com/Articles/872073/Code-Comments-are-Lies) and are usually shortcuts written to explain what a messy code block does, instead of investing the time in refactoring it to improve its readability
+     
+     代码注释通常可能会误导，因为它们经常被用作一种捷径，用来解释一段混乱的代码块的功能，而不是投入时间去重构它以提高其可读性。
+     
+     链接的文章主张编写清晰、自解释和可维护的代码，而不是过度依赖注释，同时也承认在某些特殊情况下，注释是有其必要性和价值的。
+     
  * Write documentation as code, ideally alongside code, for easier maintenance (e.g. markdown files in a "docs" folder in your repository)
+
+     将文档编写为代码，理想情况下与代码一起，以便于维护（例如，在仓库中的“docs”文件夹中的 markdown 文件）
+
  * Use docs to describe "whys" and "hows" (e.g. goals, use cases, components, high-level architecture overview,...)
+
+     使用文档来描述“为什么”和“怎么做”（例如，目标、用例、组件、高级架构概述等）
+
  * In OOP, favor [composition over inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
+
+     在面向对象编程中，组合优于继承
+
  * Follow [semantic versioning](https://semver.org/)
+
+     遵循语义化版本控制
+
  * Know about TDD and its practices (e.g. "red, green, refactor")
+
+     了解TDD及其实践（例如，“红色，绿色，重构”）
+
+     > **TDD**(测试驱动开发)是戴两顶帽子思考的开发方式：先戴上实现功能的帽子，在测试的辅助下，快速实现其功能；再戴上测试驱动开发的帽子，在测试的保护下，通过去除冗余的代码，提高代码品质。测试驱动着整个开发过程：首先，驱动代码的设计和功能的实现；其后，驱动代码的再设计和重构。
+     >
+     > - 红色：首先编写一个针对新功能的测试用例，此时由于功能尚未实现，测试用例将无法通过（失败，显示红色）
+     >
+     > - 绿色：接下来编写功能代码，使得测试用例能够通过（成功，显示绿色）。在这个阶段，重点是让测试通过，而不是编写完美的代码。
+     >
+     > - 重构：在测试用例通过后，对功能代码进行优化和重构，提高代码质量，同时确保测试用例仍然能够通过。
 
 #### Source code management
 
